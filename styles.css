@@ -688,10 +688,10 @@ body {
 .lessons-hero {
   /* ensure hero content sits below the fixed header (header = 80px) */
   /* increased vertical spacing so title & subtitle have more margin */
-  padding: calc(80px + 64px) 0 40px;
+  padding: calc(40px + 64px) 0 40px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 20px;
   align-items: center;
   justify-content: center;
   text-align: center;
