@@ -748,7 +748,7 @@ body {
 
 .lessons-section h2 {
   color: #00d0ff;
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   margin: 8px 0 12px;
   align-self: center;
 }
@@ -917,11 +917,11 @@ body {
 
 @media (max-width: 480px) {
   .lessons-hero {
-    padding: calc(70px + 28px) 0 12px;
+    padding: calc(0px + 28px) 0 12px;
   }
 
   .lessons-hero h1 {
-    font-size: 1.3rem;
+    font-size: 2rem;
   }
 
   .lessons-section {
