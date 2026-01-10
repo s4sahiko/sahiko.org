@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
   margin: auto;
 }
@@ -184,7 +184,6 @@ body {
   .lessons-hero {
     padding: 100px 0 60px;
   }
-
   .lessons-section {
     padding: 60px 0;
   }
@@ -201,8 +200,7 @@ body {
 
 /* Images & media tweaks */
 .gallery-img {
-  height: 220px;
-  object-fit: cover;
+  height: 500px;
 }
 
 .lesson-card img,
@@ -257,7 +255,7 @@ body {
 /* INTRO */
 .intro {
   text-align: center;
-  padding: 140px 0 100px;
+  padding: 150px 0 80px;
   background: linear-gradient(135deg, #0b0c10 0%, #1f2833 100%);
 }
 
@@ -343,7 +341,7 @@ body {
 }
 
 .about h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 20px;
   color: #00b4d8;
 }
@@ -393,13 +391,14 @@ body {
 
 .gallery h2 {
   color: #00b4d8;
-  margin-bottom: 40px;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
 }
 
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  gap: 30px;
 }
 
 .gallery-img {
@@ -488,7 +487,7 @@ body {
 .contact-intro h2 {
   color: #00b4d8;
   margin-bottom: 12px;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
 }
 
 .contact-intro p {
@@ -686,9 +685,7 @@ body {
 }
 
 .lessons-hero {
-  /* ensure hero content sits below the fixed header (header = 80px) */
-  /* increased vertical spacing so title & subtitle have more margin */
-  padding: calc(40px + 64px) 0 40px;
+  padding: calc(50px + 64px) 0 100px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -702,7 +699,7 @@ body {
 }
 
 .lessons-hero h1 {
-  font-size: 2.2rem;
+  font-size: 4rem;
   color: #00d0ff;
   letter-spacing: 0.2px;
   margin: 0;
@@ -748,7 +745,7 @@ body {
 
 .lessons-section h2 {
   color: #00d0ff;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   margin: 8px 0 12px;
   align-self: center;
 }
